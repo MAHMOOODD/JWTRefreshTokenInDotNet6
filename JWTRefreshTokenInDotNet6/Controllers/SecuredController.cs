@@ -13,6 +13,7 @@ namespace JWTRefreshTokenInDotNet6.Controllers
         public IActionResult GetData()
         {
             return Ok("Hello from secured controller");
+            
         }
     }
 }
